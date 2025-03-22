@@ -7,34 +7,46 @@
   <link rel="stylesheet" href="./vars.css">
   <link rel="stylesheet" href="./style.css">
   
-  
   <style>
-   a,
-   button,
-   input,
-   select,
-   h1,
-   h2,
-   h3,
-   h4,
-   h5,
-   * {
-       box-sizing: border-box;
-       margin: 0;
-       padding: 0;
-       border: none;
-       text-decoration: none;
-       background: none;
-   
-       -webkit-font-smoothing: antialiased;
-   }
-   
-   menu, ol, ul {
-       list-style-type: none;
-       margin: 0;
-       padding: 0;
-   }
-   </style>
+    a,
+    button,
+    input,
+    select,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        border: none;
+        text-decoration: none;
+        background: none;
+
+        -webkit-font-smoothing: antialiased;
+    }
+
+    menu, ol, ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    select {
+      width: 100%;
+      padding: 8px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .dropdown-container {
+      margin-bottom: 20px;
+    }
+  </style>
+
   <title>Document</title>
 </head>
 <body>
@@ -44,35 +56,31 @@
       <img class="image" src="image0.png" />
     </div>
     <div class="product-image">Product Image</div>
+
+    <!-- Product Type Dropdown -->
+    <div class="dropdown-container">
+      <label for="product-type">Product Type</label>
+      <select id="product-type" name="product-type">
+        <option value="clothing">Clothing</option>
+        <option value="accessory">Accessory</option>
+        <option value="electronics">Electronics</option>
+        <option value="home-goods">Home Goods</option>
+      </select>
+    </div>
+
+    <!-- Product Description Dropdown -->
+    <div class="dropdown-container">
+      <label for="product-description">Product Description</label>
+      <select id="product-description" name="product-description">
+        <option value="simple">Simple Description</option>
+        <option value="detailed">Detailed Description</option>
+        <option value="technical">Technical Description</option>
+      </select>
+    </div>
+
     <div class="product-category">Product Category</div>
     <div class="price">Price</div>
-    <div class="brand dropdown">
-  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Brand
-    <span class="caret"></span>
-  <div class="brand dropdown">
-        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Brand
-          <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Hoka</a></li>
-          <li><a class="dropdown-item" href="#">Nike</a></li>
-          <li><a class="dropdown-item" href="#">Asics</a></li>
-        </ul>
-      </div>
-
-      <!-- Add other dropdown next to brand -->
-      <div class="another-dropdown dropdown ml-3">
-        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Another Dropdown
-          <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Option 1</a></li>
-          <li><a class="dropdown-item" href="#">Option 2</a></li>
-          <li><a class="dropdown-item" href="#">Option 3</a></li>
-        </ul>
-      </div>
-    </div>
-</div>
+    <div class="brand">Brand</div>
     <div class="product-description">Product Description</div>
     <div class="frame-2">
       <img class="arrow-drop-down" src="arrow-drop-down0.svg" />
@@ -103,6 +111,5 @@
       </div>
     </div>
   </div>
-  
 </body>
 </html>
