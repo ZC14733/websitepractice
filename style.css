@@ -1,0 +1,280 @@
+.desktop-2,
+.desktop-2 * {
+  box-sizing: border-box;
+}
+.desktop-2 {
+  background: #ffffff;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.product-update {
+  color: #000000;
+  text-align: left;
+  font-family: var(
+    --m3-display-large-font-family,
+    "Roboto-Regular",
+    sans-serif
+  );
+  font-size: var(--m3-display-large-font-size, 57px);
+  line-height: var(--m3-display-large-line-height, 64px);
+  letter-spacing: var(--m3-display-large-letter-spacing, -0.25px);
+  font-weight: var(--m3-display-large-font-weight, 400);
+  position: absolute;
+  left: 112px;
+  top: 84px;
+  width: 729px;
+}
+.frame-17 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 340px;
+  height: 290px;
+  position: absolute;
+  left: 112px;
+  top: 258px;
+  overflow: hidden;
+}
+.image {
+  background: var(
+    --image-placeholder,
+    linear-gradient(to left, #e3e3e3, #e3e3e3)
+  );
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 484px;
+  height: 350px;
+  position: absolute;
+  left: -72px;
+  top: -30px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.product-image {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  position: absolute;
+  left: 112px;
+  top: 200px;
+}
+.product-category {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: absolute;
+  left: 536px;
+  top: 573px;
+}
+.price {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: absolute;
+  left: 693px;
+  top: 733px;
+}
+.brand {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: absolute;
+  left: 680px;
+  top: 654px;
+}
+.product-description {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: absolute;
+  left: 536px;
+  top: 340px;
+  width: 305px;
+}
+.frame-2 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 521px;
+  height: 37px;
+  position: absolute;
+  left: 790px;
+  top: 571px;
+  overflow: hidden;
+}
+.arrow-drop-down {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 484px;
+  top: 7px;
+  overflow: visible;
+}
+.frame-19 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 521px;
+  height: 37px;
+  position: absolute;
+  left: 790px;
+  top: 729px;
+  overflow: hidden;
+}
+.frame-21 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 521px;
+  height: 37px;
+  position: absolute;
+  left: 790px;
+  top: 650px;
+  overflow: hidden;
+}
+.arrow-drop-down2 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 484px;
+  top: 7px;
+  overflow: visible;
+}
+.frame-18 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 775px;
+  height: 144px;
+  position: absolute;
+  left: 536px;
+  top: 385px;
+  overflow: hidden;
+}
+.sku-color-size {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 22px;
+  top: 18px;
+  width: 397px;
+}
+.product-name {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: absolute;
+  left: 536px;
+  top: 205px;
+  width: 305px;
+}
+.frame-20 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 775px;
+  height: 40px;
+  position: absolute;
+  left: 536px;
+  top: 258px;
+  overflow: hidden;
+}
+.button-group {
+  display: flex;
+  flex-direction: row;
+  gap: var(--var-sds-size-space-400, 16px);
+  align-items: center;
+  justify-content: flex-start;
+  width: 143px;
+  position: absolute;
+  left: 803px;
+  top: 887px;
+}
+.button {
+  background: var(--var-sds-color-background-neutral-tertiary, #e3e3e3);
+  border-radius: var(--var-sds-size-radius-200, 8px);
+  border-style: solid;
+  border-color: var(--var-sds-color-border-brand-default, #2c2c2c);
+  border-width: 1px;
+  padding: var(--var-sds-size-space-300, 12px);
+  display: flex;
+  flex-direction: row;
+  gap: var(--var-sds-size-space-200, 8px);
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.button2 {
+  color: var(--var-sds-color-text-brand-default, #2c2c2c);
+  text-align: left;
+  font-family: var(
+    --single-line-body-base-font-family,
+    "Inter-Regular",
+    sans-serif
+  );
+  font-size: var(--single-line-body-base-font-size, 16px);
+  line-height: var(--single-line-body-base-line-height, 100%);
+  font-weight: var(--single-line-body-base-font-weight, 400);
+  position: relative;
+}
+.button-group2 {
+  display: flex;
+  flex-direction: row;
+  gap: var(--var-sds-size-space-400, 16px);
+  align-items: center;
+  justify-content: flex-start;
+  width: 143px;
+  position: absolute;
+  left: 524px;
+  top: 887px;
+}
+.button3 {
+  background: #5391ee;
+  border-radius: var(--var-sds-size-radius-200, 8px);
+  border-style: solid;
+  border-color: var(--var-sds-color-border-brand-default, #2c2c2c);
+  border-width: 1px;
+  padding: var(--var-sds-size-space-300, 12px);
+  display: flex;
+  flex-direction: row;
+  gap: var(--var-sds-size-space-200, 8px);
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.button4 {
+  color: var(--var-sds-color-text-brand-on-brand, #f5f5f5);
+  text-align: left;
+  font-family: var(
+    --single-line-body-base-font-family,
+    "Inter-Regular",
+    sans-serif
+  );
+  font-size: var(--single-line-body-base-font-size, 16px);
+  line-height: var(--single-line-body-base-line-height, 100%);
+  font-weight: var(--single-line-body-base-font-weight, 400);
+  position: relative;
+}
