@@ -85,27 +85,25 @@
       class="promotion-dashboard2"
       style="position: absolute; left: 38px; top: 157px;"
     >
-      New Promotion
+      New Customer
     </div>
 
     <!-- Main Content: Form -->
     <div style="position: absolute; left: 38px; top: 220px; width: 90%;">
       <form style="max-width: 400px;">
         <div class="mb-3">
-          <label for="promoName" class="form-label">Promotion Name</label>
-          <input type="text" class="form-control" id="promoName" placeholder="Enter promotion name">
+          <label for="firstName" class="form-label">First Name</label>
+          <input type="text" class="form-control" id="firstName" placeholder="Enter first name">
         </div>
         <div class="mb-3">
-          <label for="discount" class="form-label">Discount</label>
-          <input type="text" class="form-control" id="discount" placeholder="e.g., 10%">
+          <label for="lastName" class="form-label">Last Name</label>
+          <input type="text" class="form-control" id="lastName" placeholder="Enter last name">
         </div>
-        <div class="mb-3">
-          <label for="startDate" class="form-label">Start Date</label>
-          <input type="date" class="form-control" id="startDate">
+       <label for="email" class="form-label">Email</label>
+          <input type="text" class="form-control" id="email" placeholder="Enter email">
         </div>
-        <div class="mb-3">
-          <label for="endDate" class="form-label">End Date</label>
-          <input type="date" class="form-control" id="endDate">
+        <label for="phoneNumber" class="form-label">Phone Number</label>
+          <input type="text" class="form-control" id="phoneNumber" placeholder="Enter phone number">
         </div>
         <div class="mb-3">
           <label for="desc" class="form-label">Description</label>
