@@ -1,0 +1,123 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./vars.css" />
+  <link rel="stylesheet" href="./style.css" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <title>New Promotion</title>
+  <style>
+    a,
+    button,
+    input,
+    select,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      border: none;
+      text-decoration: none;
+      background: none;
+      -webkit-font-smoothing: antialiased;
+    }
+    menu,
+    ol,
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="desktop-1">
+    <div class="frame-1">
+      <nav class="navbar navbar-expand-lg" style="background-color: orange;">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="rrs-logo-10.png" alt="Logo" height="40" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="index.html">Logout</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="index.html">Main <br />Dashboard</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="customer.html">Customer Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="product.html">Product <br />Information</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="promotion.html">Promotion <br />Management</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="dashboard.html">Promotion <br />Dashboard</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div
+      class="promotion-dashboard2"
+      style="position: absolute; left: 38px; top: 157px;"
+    >
+      New Promotion
+    </div>
+
+    <!-- Main Content: Form -->
+    <div style="position: absolute; left: 38px; top: 220px; width: 90%;">
+      <form style="max-width: 400px;">
+        <div class="mb-3">
+          <label for="promoName" class="form-label">Promotion Name</label>
+          <input type="text" class="form-control" id="promoName" placeholder="Enter promotion name">
+        </div>
+        <div class="mb-3">
+          <label for="discount" class="form-label">Discount</label>
+          <input type="text" class="form-control" id="discount" placeholder="e.g., 10%">
+        </div>
+        <div class="mb-3">
+          <label for="startDate" class="form-label">Start Date</label>
+          <input type="date" class="form-control" id="startDate">
+        </div>
+        <div class="mb-3">
+          <label for="endDate" class="form-label">End Date</label>
+          <input type="date" class="form-control" id="endDate">
+        </div>
+        <div class="mb-3">
+          <label for="desc" class="form-label">Description</label>
+          <textarea class="form-control" id="desc" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Save</button>
+      </form>
+    </div>
+  </div>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+  ></script>
+</body>
+</html>
